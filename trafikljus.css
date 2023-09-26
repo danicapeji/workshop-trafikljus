@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.container {
+  background-color: white;
+  width: 200px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50%;
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+
+.red {
+  background-color: red;
+  border: 10px solid rgb(84, 1, 1);
+}
+
+.yellow {
+  background-color: yellow;
+  border: 10px solid rgb(108, 108, 0);
+}
+
+.green {
+  background-color: green;
+  border: 10px solid rgb(1, 67, 1);
+}
